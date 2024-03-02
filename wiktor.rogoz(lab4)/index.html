@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lab4</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Twój Notatnik</h1>
+    </header>
+    <div>   
+        <div id="dodanie">   
+            <h2>Dodaj Notatke</h2>
+            <form id="dodanie">
+                <input type="text" id="title" placeholder="Tytuł" required />
+                  <textarea
+                   id="idnotatki"
+                   placeholder="Treść notatki"
+                   required
+                  ></textarea>
+                  <input type="color" id="color"/>
+                <button type="submit">Dodaj</button>
+            </form>
+        </div>
+        <div id="notatki">   
+            <h2>Notatki</h2>
+            <div id="listaNotatek"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
