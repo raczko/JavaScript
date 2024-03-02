@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lab3</title>
+</head>
+
+<body>
+    <div>
+        <div>
+            <button onclick="setChannel(0)">Ustaw kanał 1</button>
+            <input type="checkbox" name="isChannelChecked" id="0">Play</input>
+        </div>
+        <div>
+            <button onclick="setChannel(1)">Ustaw kanał 2</button>
+            <input type="checkbox" name="isChannelChecked" id="1">Play</input>
+        </div>
+        <div>
+            <button onclick="setChannel(2)">Ustaw kanał 3</button>
+            <input type="checkbox" name="isChannelChecked" id="2">Play</input>
+        </div>
+        <div>
+            <button onclick="setChannel(3)">Ustaw kanał 4</button>
+            <input type="checkbox" name="isChannelChecked" id="3">Play</input>
+        </div>
+        <button onclick="play()">Odtwórz</button>
+    </div>
+    <div>
+        <p>Przypisane przyciski q w e r t </p>
+    </div>
+    <div>
+        <audio src="./sounds/crash.wav"  id="crash"></audio>
+        <audio src="./sounds/hihat.wav"  id="hihat"></audio>
+        <audio src="./sounds/kick.wav"  id="kick"></audio>
+        <audio src="./sounds/tom.wav"  id="tom"></audio>
+        <audio src="./sounds/snare.wav"  id="snare"></audio>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
